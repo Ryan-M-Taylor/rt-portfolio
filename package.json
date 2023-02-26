@@ -1,18 +1,22 @@
 {
   "name": "rt-portfolio",
   "version": "0.1.0",
-  
+  "homepage": "https://Ryan-M-Taylor.github.io/rt-portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aws-sdk": "^2.1323.0",
     "bootstrap": "^5.2.3",
+    "emailjs-com": "^3.2.0",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.2",
     "react-scripts": "5.0.1",
+    "react-social-icons": "^5.15.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -40,6 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://Ryan-M-Taylor.github.io/rt-portfolio"
+  }
 }
