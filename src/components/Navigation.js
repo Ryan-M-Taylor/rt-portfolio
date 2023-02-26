@@ -45,15 +45,12 @@ function Navigation() {
   return (
     <>
       <Nav
-        activeKey="#home"
+        activeKey="#about"
         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
       ></Nav>
       <Navbar bg="dark" variant="dark">
         <Container>
           <Nav className="me-auto">
-            <Nav.Item>
-              <Nav.Link href="#home">Home</Nav.Link>
-            </Nav.Item>
             <Nav.Item>
               <Nav.Link href="#about" onClick={handleAboutClick}>
                 About Me

@@ -8,8 +8,8 @@ function Header() {
     <>
     <Card className="bg-dark text-white">
       <Card.Img src={Rainier} alt="Card image" />
-      <Card.ImgOverlay>
-        <Card.Title>Ryan Taylor</Card.Title>
+      <Card.ImgOverlay style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <Card.Title className="bg-dark fs-1" style={{width: 'fit-content'}}>Ryan Taylor</Card.Title>
         <Card.Text>
         </Card.Text>
       </Card.ImgOverlay>

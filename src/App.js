@@ -5,7 +5,6 @@ import Buttons from "./components/Button";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
-import AWS from 'aws-sdk';
 
 function App() {
   return (
