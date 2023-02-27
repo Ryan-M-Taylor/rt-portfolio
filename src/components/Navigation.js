@@ -48,7 +48,7 @@ function Navigation() {
         activeKey="#about"
         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
       ></Nav>
-      <Navbar bg="dark" variant="dark">
+      <Navbar className="border-2 border-top border-bottom mb-2" bg="dark" variant="dark">
         <Container>
           <Nav className="me-auto">
             <Nav.Item>
