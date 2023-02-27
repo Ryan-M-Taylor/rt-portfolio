@@ -13,7 +13,6 @@ function Contact() {
     emailjs
       .send(
         'service_qd83ege',
-        'template_86eylzy',
         {
           name: data.name,
           email: data.email,

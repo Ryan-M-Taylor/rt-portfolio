@@ -9,7 +9,7 @@ import Contact from './Contact';
 import Resume from './Resume';
 
 function Navigation() {
-  const [showAbout, setShowAbout] = useState(false);
+  const [showAbout, setShowAbout] = useState(true);
   const [showPortfolio, setShowPortfolio] = useState(false);
   const [showContact, setShowContact] = useState(false);
   const [showResume, setShowResume] = useState(false);

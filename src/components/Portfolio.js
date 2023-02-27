@@ -13,7 +13,7 @@ function Portfolio() {
             <a href={project.url} target="_blank" rel="noopener noreferrer">
               <Card.Img variant="top" src={project.screenshot} />
             </a>
-            <Card.Body>
+            <Card.Body className="text-bg-dark">
               <Card.Title>{project.title}</Card.Title>
               <Card.Text>{project.description}</Card.Text>
             </Card.Body>
