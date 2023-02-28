@@ -6,7 +6,7 @@ function AboutMe() {
     <div className="text-bg-dark">
       <h1 className="text-center">Ryan Taylor</h1>
       <div className="d-flex justify-content-center">
-        <img src={ProfilePic} className="profile-pic border rounded-4"></img>
+        <img src={ProfilePic} alt="Ryan's headshot" className="profile-pic border rounded-4"></img>
         <ul>
           <li>I am a full-stack web developer located in Tacoma, Washington</li>
           <li>Huge baseball fan. Go Yankees!</li>
