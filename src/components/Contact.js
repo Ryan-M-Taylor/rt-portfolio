@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, useState} from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 
@@ -9,34 +9,21 @@ function Contact() {
     formState: { errors },
   } = useForm();
 
+  const [emailMessage, setEmailMessage] = useState("")
+
+  emailjs.init('eji0VvpPIv7l7jBrE')
+
   const onSubmit = (data) => {
-    emailjs
-      .send(
-        'service_qd83ege',
-        {
-          name: data.name,
-          email: data.email,
-          message: data.message,
-        },
-        'eji0VvpPIv7l7jBrE'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    setEmailMessage("submitted!")
   };
 
   return (
-    <div>
+    <div className='d-flex flex-column align-items-center'>
       <h2>Contact</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <label>
           Name:
-          <input {...register('name', { required: true })} />
+          <input {...register('from_name', { required: true })} />
           {errors.name && <span>This field is required</span>}
         </label>
         <br />
@@ -55,6 +42,7 @@ function Contact() {
         <br />
         <button type="submit">Submit</button>
       </form>
+      <div>{emailMessage}</div>
     </div>
   );
 }
