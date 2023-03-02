@@ -82,3 +82,13 @@ body {
 a{
   color: black;
 }
+
+@media screen and (max-width: 600px){
+  .profile-pic{
+    width: 35%;
+  }
+
+  body {
+    font-size: 12px;
+  }
+}
