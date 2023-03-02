@@ -13,7 +13,7 @@ export default function Footer() {
   };
 
   return (
-    <div className='mt-4 d-flex justify-content-center footer'>
+    <div className='d-flex justify-content-center footer'>
       <div className='position-relative'>
         {showSocialType && (
           <p className='social-type position-absolute border' style={{ top: '-32px', left: '50%', transform: 'translateX(-50%)' }}>

@@ -10,7 +10,7 @@ const projects = [
     id: 1,
     url: "https://github.com/Ryan-M-Taylor/Fitness-Plan",
     screenshot: Fitness,
-    title: "Fitness plan",
+    title: "Fitness Plan",
     description: "Creates fitness plan",
     deployed: "https://protected-woodland-15218.herokuapp.com/",
   },

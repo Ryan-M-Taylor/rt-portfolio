@@ -2,8 +2,8 @@ import React from "react";
 
 function Resume() {
   return (
-    <div className="container text-center">
-      <h4>Proficiencies:</h4>
+    <div className="container text-center resume">
+      <h4 className="pt-2">Proficiencies:</h4>
       <div className="row justify-content-center mx-auto col-md-10 mb-4">
         <div className="col col-md-2 text-start mt-3">
           <ul>
@@ -33,7 +33,7 @@ function Resume() {
       <div>
         <p>Click the button below to download my resume:</p>
         <a href="https://drive.google.com/file/d/1hZaNAJRHDNpJ3LKBSt5OxylChN8-W0Ea/view?usp=sharing">
-          <button className="btn btn-dark border mb-3">Download Resume</button>
+          <button className="btn mb-3">Download Resume</button>
         </a>
       </div>
     </div>

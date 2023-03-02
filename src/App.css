@@ -56,6 +56,8 @@ body {
 
 .profile-pic{
   max-width: 200px;
+  border-color: #8B97D2;
+  border: solid;
 }
 
 .ryan{
@@ -77,10 +79,11 @@ body {
   left: 0;
   padding: 1rem;
   text-align: center;
+  background-color: #002274;
 }
 
 a{
-  color: black;
+  color: #8B97D2;
 }
 
 @media screen and (max-width: 600px){
@@ -91,4 +94,48 @@ a{
   body {
     font-size: 12px;
   }
+}
+
+.navigation-bar{
+  background-color: #002274;
+  border-bottom: solid;
+  border-top: solid;
+  border-color: #7E79C0;
+
+}
+
+.navigation-text{
+  color: #8B97D2;
+}
+
+.about-me{
+  background-color: #002274;
+  color: #8B97D2;
+}
+
+.resume{
+  background-color: #002274;
+  color: #8B97D2;
+}
+
+.portfolio{
+  background-color: #002274;
+  color: #8B97D2;
+}
+
+.contact{
+  background-color: #002274;
+  color: #8B97D2;
+}
+
+.card-body{
+  background-color: #4B467C;
+  border: solid;
+  border-color: #8B97D2;
+}
+
+.btn{
+  border: solid;
+  border-color: #8B97D2;
+  color: #8B97D2;
 }

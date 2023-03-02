@@ -115,7 +115,7 @@ const [formData, setFormData] = useState({
   };
 
   return (
-    <div style={{ display: "flex", justifyContent: "center" }}>
+    <div className="contact" style={{ display: "flex", justifyContent: "center" }}>
       <form
         onSubmit={handleSubmit}
         style={{
@@ -124,7 +124,7 @@ const [formData, setFormData] = useState({
           alignItems: "center",
         }}
       >
-        <h4>Contact</h4>
+        <h4 className='pt-2'>Contact</h4>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <label htmlFor="name">Name:</label>
           <input

@@ -48,26 +48,26 @@ function Navigation() {
         activeKey="#about"
         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
       ></Nav>
-      <Navbar className="border-2 border-top border-bottom mb-2" bg="dark" variant="dark">
+      <Navbar className="navigation-bar">
         <Container>
           <Nav className="me-auto">
             <Nav.Item>
-              <Nav.Link href="#about" onClick={handleAboutClick}>
+              <Nav.Link className="navigation-text" href="#about" onClick={handleAboutClick}>
                 About Me
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#portfolio" onClick={handlePortfolioClick}>
+              <Nav.Link className="navigation-text" href="#portfolio" onClick={handlePortfolioClick}>
                 Portfolio
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#contact" onClick={handleContactClick}>
+              <Nav.Link className="navigation-text" href="#contact" onClick={handleContactClick}>
                 Contact
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#resume" onClick={handleResumeClick}>
+              <Nav.Link className="navigation-text" href="#resume" onClick={handleResumeClick}>
                 Resume
               </Nav.Link>
             </Nav.Item>
