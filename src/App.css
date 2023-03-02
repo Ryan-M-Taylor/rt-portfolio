@@ -79,8 +79,6 @@ body {
   text-align: center;
 }
 
-@media (max-width: 600px) { 
-  .header-photo{
-    
-  }
+a{
+  color: black;
 }

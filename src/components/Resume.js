@@ -3,7 +3,7 @@ import React from "react";
 function Resume() {
   return (
     <div className="container text-center">
-      <h2>Experience:</h2>
+      <h4>Proficiencies:</h4>
       <div className="row justify-content-center mx-auto col-md-10 mb-4">
         <div className="col col-md-2 text-start mt-3">
           <ul>

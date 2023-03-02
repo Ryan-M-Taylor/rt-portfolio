@@ -19,7 +19,7 @@ function Contact() {
 
   return (
     <div className='d-flex flex-column align-items-center'>
-      <h2>Contact</h2>
+      <h4>Contact</h4>
       <form onSubmit={handleSubmit(onSubmit)}>
         <label>
           Name:
