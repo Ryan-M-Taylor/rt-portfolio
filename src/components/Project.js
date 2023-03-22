@@ -1,8 +1,8 @@
 import Fitness from "../images/fitness_plan.png";
 import Jate from "../images/jate.png";
 import Social from "../images/social_network_api.png";
-import Tech from "../images/tech_blog.png";
-import Note from "../images/note-taker.png";
+import Books from "../images/book-search.png";
+import Gamer from "../images/gamer-match.png";
 import Film from "../images/api_project.png";
 
 const projects = [
@@ -33,19 +33,19 @@ const projects = [
   },
   {
     id: 4,
-    url: "https://github.com/Ryan-M-Taylor/MVC-Tech-Blog",
-    screenshot: Tech,
-    title: "Tech Blog",
-    description: "Pro tech blog",
-    deployed: "https://agile-thicket-19861.herokuapp.com/",
+    url: "https://github.com/Ryan-M-Taylor/Book-Search-Engine",
+    screenshot: Books,
+    title: "Book Search",
+    description: "API to search books and save to favorites",
+    deployed: "https://afternoon-shore-57278.herokuapp.com/",
   },
   {
     id: 5,
-    url: "https://github.com/Ryan-M-Taylor/Note-Taker",
-    screenshot: Note,
-    title: "Note Taker",
-    description: "Helps take notes",
-    deployed: "https://rmt-note-taker.herokuapp.com/",
+    url: "https://github.com/Ryan-M-Taylor/Gamer-Match",
+    screenshot: Gamer,
+    title: "Gamer Match",
+    description: "Link up with fellow gamers",
+    deployed: "https://peaceful-brook-99319.herokuapp.com/",
   },
   {
     id: 6,
