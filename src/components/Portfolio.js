@@ -18,7 +18,7 @@ function Portfolio() {
             </a>
             <Card.Body className="">
               <Card.Title className="fs-4">{project.title}</Card.Title>
-              <Card.Text><a href={project.deployed}>Click here for deployed site or video of application</a></Card.Text>
+              <Card.Text><a href={project.deployed} target="_blank">Click here for deployed site or video of application</a></Card.Text>
             </Card.Body>
           </Card>
         </Col>
