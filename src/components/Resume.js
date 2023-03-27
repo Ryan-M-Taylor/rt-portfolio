@@ -32,7 +32,7 @@ function Resume() {
       </div>
       <div>
         <p>Click the button below to download my resume:</p>
-        <a href="https://drive.google.com/file/d/1hZaNAJRHDNpJ3LKBSt5OxylChN8-W0Ea/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/128t0ekmpbAY8Tx4bivpHxGdIX2N9ud9m/view?usp=share_link">
           <button className="btn mb-3">Download Resume</button>
         </a>
       </div>
