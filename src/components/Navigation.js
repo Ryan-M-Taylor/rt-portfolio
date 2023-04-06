@@ -62,11 +62,6 @@ function Navigation() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="navigation-text" href="#contact" onClick={handleContactClick}>
-                Contact
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
               <Nav.Link className="navigation-text" href="#resume" onClick={handleResumeClick}>
                 Resume
               </Nav.Link>
@@ -76,7 +71,6 @@ function Navigation() {
       </Navbar>
       {showAbout && <AboutMe />}
       {showPortfolio && <Portfolio />}
-      {showContact && <Contact />}
       {showResume && <Resume />}
     </>
   );
