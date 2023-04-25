@@ -13,6 +13,7 @@ const projects = [
     title: "Fitness Plan",
     description: "Application to create and share fitness plans",
     deployed: "https://protected-woodland-15218.herokuapp.com/",
+    tech: "express, handlebars.js, mysql2, sequelize",
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const projects = [
     title: "Just Another Text Editor",
     description: "A progressive web application text editor",
     deployed: "https://evening-ravine-79423.herokuapp.com/",
+    tech: "IndexedDB, webpack, babel, service worker, manifest.json, progressive web application",
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ const projects = [
     description: "Creates social network using command line",
     deployed:
       "https://drive.google.com/file/d/1ZqOV_yQA6v2m9ms57sLEwMQX1uhbIq3e/view",
+    tech: "MongoDB, mongoose, express, Node.js",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const projects = [
     title: "Book Search",
     description: "Application to search for books and save to favorites",
     deployed: "https://afternoon-shore-57278.herokuapp.com/",
+    tech: "Apollo, API, GraphQL, MongoDB Atlas, Heroku",
   },
   {
     id: 5,
@@ -46,6 +50,7 @@ const projects = [
     title: "Gamer Match",
     description: "Social gaming site to find other gamers to play with",
     deployed: "https://peaceful-brook-99319.herokuapp.com/",
+    tech: "React, Bootstrap, Apollo, GraphQL, jsonwebtoken, bcrypt",
   },
   {
     id: 6,
@@ -54,6 +59,7 @@ const projects = [
     title: "Film Finder",
     description: "Application to search for movies and relevant movie info",
     deployed: "https://ryan-m-taylor.github.io/API-Project/",
+    tech: "JavaScript, APIs, CSS, HTML",
   },
 ];
 
