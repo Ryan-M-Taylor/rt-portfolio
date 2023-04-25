@@ -11,7 +11,7 @@ const projects = [
     url: "https://github.com/Ryan-M-Taylor/Fitness-Plan",
     screenshot: Fitness,
     title: "Fitness Plan",
-    description: "Creates fitness plan",
+    description: "Application to create and share fitness plans",
     deployed: "https://protected-woodland-15218.herokuapp.com/",
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     url: "https://github.com/Ryan-M-Taylor/PWA-Text-Editor",
     screenshot: Jate,
     title: "Just Another Text Editor",
-    description: "Text editor",
+    description: "A progressive web application text editor",
     deployed: "https://evening-ravine-79423.herokuapp.com/",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     url: "https://github.com/Ryan-M-Taylor/MongoDB-Social-Network-API",
     screenshot: Social,
     title: "Social Network Api",
-    description: "Creates social network",
+    description: "Creates social network using command line",
     deployed:
       "https://drive.google.com/file/d/1ZqOV_yQA6v2m9ms57sLEwMQX1uhbIq3e/view",
   },
@@ -36,7 +36,7 @@ const projects = [
     url: "https://github.com/Ryan-M-Taylor/Book-Search-Engine",
     screenshot: Books,
     title: "Book Search",
-    description: "API to search books and save to favorites",
+    description: "Application to search for books and save to favorites",
     deployed: "https://afternoon-shore-57278.herokuapp.com/",
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     url: "https://github.com/Ryan-M-Taylor/Gamer-Match",
     screenshot: Gamer,
     title: "Gamer Match",
-    description: "Link up with fellow gamers",
+    description: "Social gaming site to find other gamers to play with",
     deployed: "https://peaceful-brook-99319.herokuapp.com/",
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     url: "https://github.com/Ryan-M-Taylor/API-Project",
     screenshot: Film,
     title: "Film Finder",
-    description: "Searches for movies",
+    description: "Application to search for movies and relevant movie info",
     deployed: "https://ryan-m-taylor.github.io/API-Project/",
   },
 ];
